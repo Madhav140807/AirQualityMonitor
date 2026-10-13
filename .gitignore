@@ -11,4 +11,4 @@ _autosave-*
 
 # Firmware builds
 .pio/
-build/
+build/.history/
