@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f33fd3c7-3605-4409-8b6b-4ae13c9b0ade")
+	(paper "A4")
+	(title_block
+		(date "2026-10-13")
+		(rev "A")
+		(company "Madhav Agarwal")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
