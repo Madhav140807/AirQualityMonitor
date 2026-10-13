@@ -418,7 +418,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "AirQualityMonitor",
+    "page_layout_descr_file": "Air Quality Monitor",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -430,7 +430,7 @@
         "uuid": "f33fd3c7-3605-4409-8b6b-4ae13c9b0ade"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-4,J1-2,R1-3",
     "variants": []
   },
   "sheets": [
