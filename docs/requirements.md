@@ -32,7 +32,7 @@ A wall powered indoor air quality monitor built on a custom PCB. It measures par
 | N5 | Sensor readings stay within manufacturer accuracy specs |
 | N6 | Temperature sensor placed away from heat sources on the board |
 | N7 | 2 layer PCB, under 100 x 100 mm (cheapest fab pricing) |
-| N8 | Parts hand solderable where possible (0805 size or larger, no BGA) |
+| N8 | Small SMD parts assembled by JLCPCB (economic PCBA); ESP32 module and connectors hand soldered |
 | N9 | Total parts + PCB cost under $80 |
 | N10 | ESD protection on the USB port |
 

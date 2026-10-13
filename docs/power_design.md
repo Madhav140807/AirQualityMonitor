@@ -22,3 +22,16 @@ USB D+/D- → ESD protection → ESP32 S3
 * Decoupling capacitors next to every chip power pin
 * Temperature sensor placed far from the regulator (regulator heat would skew readings)
 * All values to be confirmed against datasheets during part selection
+
+## USB C Input
+* Connector: HRO TYPE-C-31-M-12 (LCSC C165948), USB 2.0, 16 pin
+* CC1 and CC2 each get their own 5.1k pulldown to GND (required for C to C chargers to supply 5V)
+* Both copies of VBUS, GND, D+ and D- tied together (plug works either way)
+* Polyfuse (~750 mA hold) between VBUS and the 5V rail
+* USBLC6-2SC6 ESD protection on D+, D- and VBUS
+* ESP32 S3 native USB: GPIO20 = D+, GPIO19 = D-
+
+## Assembly Plan
+* JLCPCB economic PCBA for small SMD parts
+* ESP32 module and connectors hand soldered
+* Hole under the ESP32 ground pad so it can be soldered from the back
